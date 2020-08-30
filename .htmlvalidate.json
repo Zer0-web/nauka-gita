@@ -1,10 +1,10 @@
 {
-	"extends": [
-		"htmlvalidate:recommended"
-	],
+  "extends": [
+    "htmlvalidate:recommended"
+  ],
 
-	"rules": {
-		"close-order": "error"
-		"void": ["warn", {"style: "omit"}]
-	}
+  "rules": {
+    "close-order": "error"
+    "void": ["warn", {"style": "omit"}]
+  }
 }
